@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ericeisaman/cs1-blog
+  repo: EricEisaman/cs1-blog
   
 media_folder: static/assets
 public_folder: assets
