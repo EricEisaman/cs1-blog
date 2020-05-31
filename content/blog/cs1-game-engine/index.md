@@ -13,7 +13,7 @@ ___
 
 <br>
 
-The **CS1 Game Engine** v0.7.x is a 3D Multiplayer VR-ready Game Engine designed for Computer Science Education and prototyping commercial applications. The **v1.0.0 release** will be polished and ready for commercial applications.
+The **CS1 Game Engine** v0.7.x is a 3D Multiplayer VR-ready Game Engine designed for Computer Science Education and application prototyping. The **v1.0.0 release** will be polished and ready for commercial applications.
 
 <br/>
 
