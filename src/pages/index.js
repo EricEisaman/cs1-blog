@@ -13,7 +13,7 @@ export default function IndexPage({ data }) {
         <meta property="og:type" content="website"/>
         <meta name='description' content='Creating masterful 3D multiplayer games!'></meta>
         <meta property='og:title' content="CS1 Blog"/>
-        <meta property='og:image' content="https://cdn.glitch.com/a0dd9fe7-3870-4571-800d-38e4a02ec0d8%2FCS1%20Banner%20with%20Background_flip.png?v=1593460056003"/>
+        <meta property='og:image' content="https://cdn.glitch.com/53f6eb06-66f0-4243-b635-db0bfec50c28%2FCS1_Banner.png?v=1589051460395"/>
         <meta property="og:description" content="Creating masterful 3D multiplayer games!"/>
         <meta property="og:url" content="//cs1.netlify.app" />
         <meta name="twitter:site" content="@CS1_Game_Engine" />
