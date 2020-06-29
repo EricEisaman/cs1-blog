@@ -13,9 +13,7 @@ ___
 
 <br>
 
-The **CS1 Game Engine** v0.7.x is a 3D Multiplayer VR-ready Game Engine designed for Computer Science Education and application prototyping. The **v1.0.0 release** will be polished and ready for commercial applications.
-
-<br/>
+The **CS1 Game Engine** is a 3D Multiplayer VR-ready Game Engine designed for Computer Science Education. 
 
 The CS1 Game Engine and IDE provide a structured context for building student proficiency in computer science and result in 3D multiplayer VR games. Students can share their creations within minutes of entering the discipline. The resulting games can be installed as PWAs on laptop, desktop, and mobile devices. The games will also run on the Oculus Quest VR system. Teachers can easily create custom lessons and quizzes for the CS1 IDE using Google Slides and Google Forms.
 
