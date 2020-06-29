@@ -17,19 +17,28 @@ The **CS1 Game Engine** exposes a powerful and intuitive Domain Specific Languag
 
 <br>
 
-The top level CS1 properties include:
+**Top Level CS1 Properties**
 
 <br>
 
-  - CS1.game
-  - CS1.scene
-  - CS1.myPlayer
-  - CS1.cam
-  - CS1.rig
-  - CS1.utils
-  - CS1.flags
-  - CS1.device
-  - CS1.version
+CS1.game
+
+CS1.scene
+
+CS1.myPlayer
+
+CS1.cam
+
+CS1.rig
+
+CS1.utils
+
+CS1.flags
+
+CS1.device
+
+CS1.version
+
   
 <br>
 
