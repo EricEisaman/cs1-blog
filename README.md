@@ -1,5 +1,3 @@
-![chakra-logo](https://cdn.glitch.com/2b27318c-1a06-4c9c-bcb1-d6e3034bcdcd%2Fchakra_logo.png?v=1588953414477)
-
 # blog-starter
 ___
 

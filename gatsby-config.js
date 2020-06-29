@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://401k.glitch.me/`,
-    title: `CS1 Blog`,
+    siteUrl: 'https://401k.glitch.me/',
+    title: 'CS1 Blog',
     image: 'https://401k.glitch.me/cs1-game-engine/',
-    description: `CS1 Blog`,
-    blogTitle: `I Have to Write This Down`,
-    blogDescription: `A blog about the CS1 Game Engine.`,
-    author: `SirFizX`,
+    description: 'CS1 Blog',
+    blogTitle: 'I Have to Write This Down',
+    blogDescription: 'A blog about the CS1 Game Engine.',
+    author: 'SirFizX',
     social: {
-      twitter: `CS1_Game_Engine`,
-      github: `EricEisaman`
+      twitter: 'CS1_Game_Engine',
+      github: 'EricEisaman'
     }
   },
   plugins: [
