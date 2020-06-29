@@ -36,6 +36,7 @@ export default function IndexPage({ data }) {
                 color: inherit;
               `}
             >
+              <br></br>
               <Heading as="h6" size="xs">
                 {node.frontmatter.title}{" "}
                 <span
@@ -47,6 +48,7 @@ export default function IndexPage({ data }) {
                 </span>
               </Heading>
               <div>{node.excerpt}</div>
+              <br></br>
             </Link>
           </Box>
         ))}
