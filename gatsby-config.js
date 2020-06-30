@@ -34,26 +34,6 @@ module.exports = {
         name: "blog",
       },
     },
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        useMozJpeg: false,
-        stripMetadata: true,
-        defaultQuality: 75,
-      },
-    },
-    {
-            resolve: `gatsby-plugin-manifest`,
-            options: {
-                name: `CS1 Blog`,
-                short_name: `CS1 Blog`,
-                start_url: `/`,
-                background_color: `#5EC0F2`,
-                theme_color: `#763137`,
-                display: `fullscreen`,
-                icon: `src/images/icon.png`, // This path is relative to the root of the site.
-            },
-    },
     'gatsby-plugin-offline',
     "gatsby-transformer-remark",
     {
