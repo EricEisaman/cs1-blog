@@ -24,13 +24,23 @@ export default function BlogPost({ data }) {
         <meta property="og:description" content="Creating masterful 3D multiplayer games!"/>
         <meta property="og:url" content="//401k.glitch.me" />
       </Helmet>
-      <Box>
+      <Box
+        width={[
+          "90%", // base
+          "90%", // 480px upwards
+          "90%", // 768px upwards
+          "90%", // 992px upwards
+       ]}
+        >
         <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Box 
+          px={"3vw"}
+          dangerouslySetInnerHTML={{ __html: post.html }} />
       </Box>
       <Link to="/">
       <IconButton
         mt={25}
+        mx={"3vw"}
         variant="outline"
         variantColor="blue"
         aria-label="Return Home"

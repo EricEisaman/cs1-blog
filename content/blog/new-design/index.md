@@ -1,6 +1,8 @@
 ---
 path: "/new-design"
+
 date: "2020-05-08"
+
 title: "New Design"
 ---
 <br>

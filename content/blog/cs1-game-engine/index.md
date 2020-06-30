@@ -1,6 +1,8 @@
 ---
 path: "/cs1-game-engine"
+
 date: "2020-05-08"
+
 title: "CS1 Game Engine"
 ---
 <br>
@@ -19,4 +21,6 @@ The CS1 Game Engine and IDE provide a structured context for building student pr
 
 <br>
 
-<iframe width="100%" height= "365px" src="https://www.youtube.com/embed/lKYQ1o2Uc_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <iframe width="320" height="190"  src="https://www.youtube.com/embed/lKYQ1o2Uc_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+

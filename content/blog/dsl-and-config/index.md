@@ -1,6 +1,8 @@
 ---
 path: "/dsl-and-config"
+
 date: "2020-06-29"
+
 title: "DSL and Configuration"
 ---
 <br>

@@ -34,6 +34,7 @@ module.exports = {
         name: "blog",
       },
     },
+    'gatsby-plugin-offline',
     "gatsby-transformer-remark",
     {
       resolve: "gatsby-plugin-excerpts",
@@ -47,7 +48,7 @@ module.exports = {
             elementReplacements: [
               {
                 selector: "h6",
-                replaceWith: "strong"
+                replaceWith: "h5"
               },
               {
                 selector: "h5",
@@ -76,7 +77,7 @@ module.exports = {
             elementReplacements: [
               {
                 selector: "h6",
-                replaceWith: "strong"
+                replaceWith: "h5"
               },
               {
                 selector: "h5",

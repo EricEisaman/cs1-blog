@@ -28,7 +28,10 @@ export default function IndexPage({ data }) {
         <hr></hr>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Box  maxW="sm" key={node.id}>
+          <Box  
+            px={"5vw"}
+            pb={"5vh"}
+            key={node.id}>
             <Link
               to={node.fields.slug}
               css={css`
@@ -37,17 +40,26 @@ export default function IndexPage({ data }) {
               `}
             >
               <br></br>
-              <Heading as="h6" size="xs">
+              <Heading as="h6" size="sm">
                 {node.frontmatter.title}{" "}
                 <span
                   css={css`
                     color: #555;
                   `}
                 >
+                 <br></br> 
                   — {node.frontmatter.date}
                 </span>
               </Heading>
-              <div>{node.excerpt}</div>
+              <Box
+                px={"3vw"}
+                width={[
+                    "90%", // base
+                    "90%", // 480px upwards
+                    "90%", // 768px upwards
+                    "90%", // 992px upwards
+                 ]}
+                >{node.excerpt}</Box>
               <br></br>
             </Link>
           </Box>
