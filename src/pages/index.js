@@ -15,7 +15,7 @@ export default function IndexPage({ data }) {
         <meta property='og:title' content="CS1 Blog"/>
         <meta property='og:image' content="https://cdn.glitch.com/53f6eb06-66f0-4243-b635-db0bfec50c28%2FCS1_Banner.png?v=1589051460395"/>
         <meta property="og:description" content="Creating masterful 3D multiplayer games!"/>
-        <meta property="og:url" content="//cs1.netlify.app" />
+        <meta property="og:url" content="https://cs1.netlify.app" />
         <meta name="twitter:site" content="@CS1_Game_Engine" />
         <meta name="twitter:title" content="CS1 Game Engine Blog" />
         <meta name="twitter:description" content="The CS1 Game Engine enables easy design of 3D multiplayer VR-ready games which can be installed as Progressive Web Applications (PWAs)." />
