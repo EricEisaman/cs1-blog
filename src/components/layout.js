@@ -11,12 +11,25 @@ import {
 export default function Layout({ children }) {
   const { toggleColorMode } = useColorMode();
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+     <Box 
+       mx={"auto"}
+       p={[0, 0, 10, 5]}
+       fontSize={["xs", "sm", "md", "lg"]}
+       width={[
+          "100%", // base
+          "100%", // 480px upwards
+          "100%", // 768px upwards
+          "100%", // 992px upwards
+       ]}
+       >
       {children}
       <br></br>
-      <Button mt={25} variantColor="blue" onClick={toggleColorMode}>
+      <Button 
+        mx={"3vw"}
+        mb={"5vh"}
+        mt={25} variantColor="blue" onClick={toggleColorMode}>
           Toggle color mode
       </Button>
-    </div>
+    </Box>
   )
 }
