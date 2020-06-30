@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://401k.glitch.me/',
+    siteUrl: 'https://cs1.netlify.app/',
     title: 'CS1 Blog',
-    image: 'https://401k.glitch.me/cs1-game-engine/',
+    image: 'https://res.cloudinary.com/cs1/image/upload/v1593487791/CS1_Banner_wcbotc.png',
     description: 'CS1 Blog',
-    blogTitle: 'I Have to Write This Down',
-    blogDescription: 'A blog about the CS1 Game Engine.',
+    blogTitle: 'CS1 Game Engine',
+    blogDescription: 'Developing and deploying 3D Multiplayer VR-ready games with the CS1 Game Engine.',
     author: 'SirFizX',
     social: {
       twitter: 'CS1_Game_Engine',
@@ -33,6 +33,26 @@ module.exports = {
         path: `${__dirname}/content/blog`,
         name: "blog",
       },
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
+    {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `CS1 Blog`,
+                short_name: `CS1 Blog`,
+                start_url: `/`,
+                background_color: `#5EC0F2`,
+                theme_color: `#763137`,
+                display: `fullscreen`,
+                icon: `src/images/icon.png`, // This path is relative to the root of the site.
+            },
     },
     'gatsby-plugin-offline',
     "gatsby-transformer-remark",
