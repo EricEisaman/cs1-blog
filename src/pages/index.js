@@ -13,17 +13,17 @@ export default function IndexPage({ data }) {
         <meta property="og:type" content="website"/>
         <meta name='description' content='Creating masterful 3D multiplayer games!'></meta>
         <meta property='og:title' content="CS1 Blog"/>
-        <meta property='og:image' content="https://cdn.glitch.com/53f6eb06-66f0-4243-b635-db0bfec50c28%2FCS1_Banner.png?v=1589051460395"/>
+        <meta property='og:image' content="https://res.cloudinary.com/cs1/image/upload/v1593487791/CS1_Banner_wcbotc.png"/>
         <meta property="og:description" content="Creating masterful 3D multiplayer games!"/>
         <meta property="og:url" content="https://cs1.netlify.app" />
         <meta name="twitter:site" content="@CS1_Game_Engine" />
         <meta name="twitter:title" content="CS1 Game Engine Blog" />
         <meta name="twitter:description" content="The CS1 Game Engine enables easy design of 3D multiplayer VR-ready games which can be installed as Progressive Web Applications (PWAs)." />
-        <meta name="twitter:image" content="https://cdn.glitch.com/a0dd9fe7-3870-4571-800d-38e4a02ec0d8%2FCS1%20Banner%20with%20Background_flip.png?v=1593460056003" />
+        <meta name="twitter:image" content="https://res.cloudinary.com/cs1/image/upload/v1593487734/CS1_Banner_with_Background_flip_ybnnwx.png" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <Box>
-        <Image src="https://cdn.glitch.com/53f6eb06-66f0-4243-b635-db0bfec50c28%2FCS1_Banner.png?v=1589051460395"/>
+        <Image src="https://res.cloudinary.com/cs1/image/upload/v1593487791/CS1_Banner_wcbotc.png"/>
         <Heading>CS1 Blog</Heading>
         <hr></hr>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
