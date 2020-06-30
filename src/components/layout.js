@@ -14,7 +14,7 @@ export default function Layout({ children }) {
      <Box 
        mx={"auto"}
        p={[0, 0, 10, 5]}
-       fontSize={["xs", "sm", "md", "lg"]}
+       fontSize={["xs", "xs", "md", "lg"]}
        width={[
           "100%", // base
           "100%", // 480px upwards
