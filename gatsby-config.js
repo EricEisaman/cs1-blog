@@ -12,7 +12,7 @@ module.exports = {
       github: 'EricEisaman'
     }
   },
-  plugins: [
+  plugins: [ 
     {
       resolve: "gatsby-plugin-chakra-ui",
       options: {
@@ -38,7 +38,7 @@ module.exports = {
     "gatsby-transformer-remark",
     {
       resolve: "gatsby-plugin-excerpts",
-      options: {
+          options: {
         sources: {
           snippetBlocks: {
             type: "htmlQuery",
@@ -115,6 +115,8 @@ module.exports = {
           }
         }
       }
+      
+      
     }
   ]
 }
