@@ -1,7 +1,7 @@
 ---
 path: "/dsl-and-config"
 
-date: "2020-06-29"
+date: "2020-07-13"
 
 title: "DSL and Configuration"
 ---
@@ -23,19 +23,19 @@ The **CS1 Game Engine** exposes a powerful and intuitive Domain Specific Languag
 
 <br>
 
-CS1.game
+CS1.Game
 
-CS1.scene
+CS1.Scene
 
-CS1.myPlayer
+CS1.MyPlayer
 
-CS1.cam
+CS1.Cam
 
-CS1.rig
+CS1.Rig
 
-CS1.utils
+CS1.Utils
 
-CS1.flags
+CS1.Flags
 
 CS1.device
 
@@ -44,15 +44,15 @@ CS1.version
   
 <br>
 
-In addition various optional systems and primitives are designed to append top level API access. For example the **cs1-jukebox** primitive adds a reference at CS1.jukebox.  
+In addition various optional systems and primitives are designed to append top level API access. For example the **cs1-jukebox** primitive adds a reference at CS1.Jukebox.  
 
 <br>
 
-**CS1.game** includes a method **CS1.game.start()** which does exactly what you would expects. It starts the game, at which time a **game-start** event is dispatched.
+**CS1.Game** includes a method **CS1.Game.start()** which does exactly what you would expects. It starts the game, at which time a **game-start** event is dispatched.
 
 <br>
 
-Another such sensibly named method is **CS1.myPlayer.setAvatar()**. This method is not only available on **CS1.myPlayer**, but also on any **player instance**.
+Another such sensibly named method is **CS1.MyPlayer.setAvatar()**. This method is not only available on **CS1.MyPlayer**, but also on any **player instance**.
 
 <br>
 
@@ -60,7 +60,7 @@ You can think of the **CS1** global object as a **DSL** tree composed of sensibl
 
 <br>
 
-As of today, the **CS1 Game Engine**, and consequently the **CS1** global object, are very incomplete as measured against the **API Promises** for **version 1.0.0**.  Once these promises have been fullfilled, I will be developing game design and monitoring applications which will interact with the engine via user interfaces communicating through **design** and **control** layers/planes.  The user interfaces may include **GUI**s and **CLI**s easing aspects of game design and server management.  The **design layer/plane** will bind **GUI** widgets to a **JSON configuration file**. A **flag** set in **CS1.flags** will inform the engine whether to import and perform **API calls** based on a **JSON configuration file**.  This will enable end users to develop their own game design and level editors which write to such a configuration file.   The **control layer/plane** will enable similar writes to a **server configuration file** as well as realtime **CS1 Game Server API** calls.  Control layer applications can be designed by end users to ease server configuration and live server management.  For example, such an application could do such things as configure database settings or boot players from a live game. 
+As of today, the **CS1 Game Engine**, and consequently the **CS1** global object, are very incomplete as measured against the **API Promises** for **version 1.0.0**.  Once these promises have been fullfilled, I will be developing game design and monitoring applications which will interact with the engine via user interfaces communicating through **design** and **control** layers/planes.  The user interfaces may include **GUI**s and **CLI**s easing aspects of game design and server management.  The **design layer/plane** will bind **GUI** widgets to a **JSON configuration file**. A **flag** set in **CS1.Flags** will inform the engine whether to import and perform **API calls** based on a **JSON configuration file**.  This will enable end users to develop their own game design and level editors which write to such a configuration file.   The **control layer/plane** will enable similar writes to a **server configuration file** as well as realtime **CS1 Game Server API** calls.  Control layer applications can be designed by end users to ease server configuration and live server management.  For example, such an application could do such things as configure database settings or boot players from a live game. 
 
 <br>
 
