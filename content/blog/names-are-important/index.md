@@ -15,22 +15,22 @@ ___
 
 <br>
 
-# CASING CONVENTION
+# **CASING CONVENTION**
 ___
 
-## ALL CAPS
+## **ALL CAPS**
 
 Top level CS1 object.
 ___
 
 
-## PascalCase
+## **PascalCase**
 
 
 Objects or Arrays
 ___
 
-## camelCase
+## **camelCase**
 
 
 Methods or Properties with types **string** , **number** , or **boolean**.
@@ -38,16 +38,16 @@ ___
 
 <br>
 
-# NOMENCLATURE
+# **NOMENCLATURE**
 ___
 
-## Standard Game Development Industry Language
+## **Standard Game Development Industry Language**
 ___
 
 <br>
 <br>
 
-# Reflection
+# **Reflection**
 ___
 
 The above casing convention and nomenclature are being used as guidelines as the CS1 Game Engine is being further developed.  Reach out if you would like to share your thoughts.
