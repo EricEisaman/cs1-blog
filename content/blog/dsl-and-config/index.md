@@ -33,6 +33,8 @@ CS1.Cam
 
 CS1.Rig
 
+CS1.Design
+
 CS1.Utils
 
 CS1.Flags
